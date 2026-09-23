@@ -1,0 +1,46 @@
+{
+  "name": "sessao-noturna",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "assets": "node scripts/assets.mjs",
+    "shot": "node scripts/shot.mjs",
+    "blender": "${BLENDER:-$HOME/.local/opt/blender/blender} -b -P",
+    "typecheck": "tsc -b",
+    "bake:alley": "npm run blender -- scripts/blender/alley.py -- .cache/polyhaven/models .cache/blender/alley_raw.glb src/scenes/alley/anchors.json && npm run bake:light",
+    "bake:light": "npm run blender -- scripts/blender/alley_bake.py -- .cache/blender/alley.blend src/scenes/alley/anchors.json .cache/blender/bake 512 && gltf-transform optimize .cache/blender/bake/alley_lit.glb public/scenes/alley_lit.glb --compress meshopt --texture-compress webp --texture-size 512 --simplify false --prune-attributes false && python3 scripts/lightmaps.py .cache/blender/bake/alley_lightmap.png public/scenes/alley_lightmap.webp && python3 scripts/lightmaps.py .cache/blender/bake/ground_lightmap.png public/scenes/ground_lightmap.webp 2 && cp .cache/blender/bake/ground.json src/scenes/alley/ground.json",
+    "rig:lamp": "npm run blender -- scripts/blender/lamp_rig.py -- .cache/polyhaven/models/desk_lamp_arm_01/desk_lamp_arm_01.gltf .cache/blender/desk_lamp_rig.glb && gltf-transform optimize .cache/blender/desk_lamp_rig.glb public/models/desk_lamp_rig.glb --compress meshopt --texture-compress webp --texture-size 1024 --join false --flatten false",
+    "smoke": "node scripts/smoke.mjs",
+    "textures": "python3 scripts/webp.py",
+    "hdri:small": "npm run blender -- scripts/blender/hdri_small.py -- public/hdri/shanghai_bund.hdr public/hdri/studio_small_09.hdr",
+    "rig:camera": "npm run blender -- scripts/blender/camera_rig.py -- .cache/polyhaven/models/security_camera_01/security_camera_01.gltf .cache/blender/security_camera_rig.glb && gltf-transform optimize .cache/blender/security_camera_rig.glb public/models/security_camera_rig.glb --compress meshopt --texture-compress webp --texture-size 512 --join false --flatten false"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.8.0",
+    "@react-three/postprocessing": "^3.1.2",
+    "@react-three/rapier": "^2.2.0",
+    "postprocessing": "^6.39.5",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "three": "^0.186.0",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "^4.5.0",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "puppeteer-core": "^25.12.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}

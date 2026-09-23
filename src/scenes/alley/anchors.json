@@ -1,0 +1,120 @@
+{
+  "half": 3.0,
+  "length": 33.0,
+  "floors": 4,
+  "module": 3.0,
+  "anchors": {
+    "anchor_door_flight": {
+      "pos": [
+        3.0,
+        0,
+        -4.5
+      ],
+      "yaw": -90
+    },
+    "anchor_door_raft": {
+      "pos": [
+        3.0,
+        0,
+        -10.5
+      ],
+      "yaw": -90
+    },
+    "anchor_door_ledger": {
+      "pos": [
+        3.0,
+        0,
+        -16.5
+      ],
+      "yaw": -90
+    },
+    "anchor_door_cuda": {
+      "pos": [
+        3.0,
+        0,
+        -22.5
+      ],
+      "yaw": -90
+    },
+    "anchor_door_hale": {
+      "pos": [
+        -3.0,
+        0,
+        -7.5
+      ],
+      "yaw": 90
+    },
+    "anchor_door_match": {
+      "pos": [
+        -3.0,
+        0,
+        -13.5
+      ],
+      "yaw": 90
+    },
+    "anchor_door_nabla": {
+      "pos": [
+        -3.0,
+        0,
+        -19.5
+      ],
+      "yaw": 90
+    },
+    "anchor_door_obras": {
+      "pos": [
+        -3.0,
+        0,
+        -25.5
+      ],
+      "yaw": 90
+    },
+    "anchor_camera_right": {
+      "pos": [
+        2.95,
+        3.25,
+        -6.0
+      ],
+      "yaw": -90
+    },
+    "anchor_camera_left": {
+      "pos": [
+        -2.95,
+        3.25,
+        -20.0
+      ],
+      "yaw": 90
+    },
+    "anchor_lamp_left": {
+      "pos": [
+        -2.55,
+        0,
+        -9.3
+      ],
+      "yaw": 90
+    },
+    "anchor_lamp_right": {
+      "pos": [
+        2.55,
+        0,
+        -27.3
+      ],
+      "yaw": -90
+    },
+    "anchor_manhole": {
+      "pos": [
+        0.6,
+        0,
+        -28.0
+      ],
+      "yaw": 0.0
+    },
+    "anchor_tower": {
+      "pos": [
+        0,
+        0,
+        -37.0
+      ],
+      "yaw": 0.0
+    }
+  }
+}

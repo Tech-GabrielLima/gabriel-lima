@@ -1,0 +1,19 @@
+# Render Blueprint for the live backend (live/): Gabriel's real raftkv cluster and
+# matching engine, streamed to the site over SSE. Free plan, no card: the service
+# sleeps after 15 min without visitors and the site wakes it on arrival (src/live/live.ts).
+# State lives in memory, so a sleep simply starts a fresh night.
+services:
+  - type: web
+    name: sessao-noturna-live
+    runtime: docker
+    plan: free
+    region: virginia
+    rootDir: live
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /live/health
+    autoDeployTrigger: commit
+    envVars:
+      # The site's own origins (production, the older deployment, and local dev).
+      - key: ALLOWED_ORIGINS
+        value: https://gabriel-lima-eight.vercel.app,https://port-gabriel-lima-sable.vercel.app,http://localhost:5173,http://localhost:4173

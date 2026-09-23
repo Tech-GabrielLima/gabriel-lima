@@ -1,0 +1,273 @@
+{
+  "models": [
+    {
+      "slug": "filmstrip_projector_8mm",
+      "scene": "booth",
+      "join": false
+    },
+    {
+      "slug": "modular_urban_apartments_facade",
+      "scene": "alley",
+      "web": false
+    },
+    {
+      "slug": "modular_fire_escape",
+      "scene": "alley",
+      "web": false
+    },
+    {
+      "slug": "rollershutter_door",
+      "scene": "alley"
+    },
+    {
+      "slug": "street_lamp_01",
+      "scene": "alley",
+      "web": false
+    },
+    {
+      "slug": "fire_hydrant",
+      "scene": "alley",
+      "web": false
+    },
+    {
+      "slug": "metal_trash_can",
+      "scene": "alley",
+      "web": false
+    },
+    {
+      "slug": "exterior_aircon_unit",
+      "scene": "alley",
+      "web": false
+    },
+    {
+      "slug": "utility_box_01",
+      "scene": "alley",
+      "web": false
+    },
+    {
+      "slug": "security_camera_01",
+      "scene": "alley",
+      "web": false
+    },
+    {
+      "slug": "water_manhole_cover",
+      "scene": "alley",
+      "join": false
+    },
+    {
+      "slug": "modular_metal_gutter",
+      "scene": "alley",
+      "web": false
+    },
+    {
+      "slug": "concrete_road_barrier",
+      "scene": "alley",
+      "web": false
+    },
+    {
+      "slug": "old_tyre",
+      "scene": "alley",
+      "web": false
+    },
+    {
+      "slug": "spray_paint_bottles_02",
+      "scene": "alley",
+      "web": false
+    },
+    {
+      "slug": "street_rat",
+      "scene": "alley"
+    },
+    {
+      "slug": "caged_hanging_light",
+      "scene": "booth"
+    },
+    {
+      "slug": "cardboard_box_01",
+      "scene": "booth"
+    },
+    {
+      "slug": "metal_stool_01",
+      "scene": "booth"
+    },
+    {
+      "slug": "vintage_telephone_wall_clock",
+      "scene": "credits",
+      "join": false
+    },
+    {
+      "slug": "rubber_duck_toy",
+      "scene": "credits",
+      "join": false
+    },
+    {
+      "slug": "metal_office_desk",
+      "scene": "studio",
+      "join": false
+    },
+    {
+      "slug": "desk_lamp_arm_01",
+      "scene": "studio",
+      "join": false,
+      "web": false
+    },
+    {
+      "slug": "classic_laptop",
+      "scene": "studio",
+      "join": false
+    },
+    {
+      "slug": "office_notepads",
+      "scene": "studio",
+      "join": false
+    },
+    {
+      "slug": "wall_clock",
+      "scene": "studio",
+      "join": false
+    },
+    {
+      "slug": "modern_arm_chair_01",
+      "scene": "studio",
+      "join": false
+    },
+    {
+      "slug": "potted_plant_02",
+      "scene": "studio",
+      "join": false
+    },
+    {
+      "slug": "vintage_stapler",
+      "scene": "studio",
+      "join": false
+    },
+    {
+      "slug": "modular_wooden_pier",
+      "scene": "crossing",
+      "join": false
+    },
+    {
+      "slug": "wooden_lantern_01",
+      "scene": "crossing",
+      "join": false
+    },
+    {
+      "slug": "ocean_buoy",
+      "scene": "crossing",
+      "join": false
+    },
+    {
+      "slug": "lifebuoy",
+      "scene": "crossing",
+      "join": false
+    },
+    {
+      "slug": "seadogs_compass",
+      "scene": "crossing",
+      "join": false
+    },
+    {
+      "slug": "treasure_chest",
+      "scene": "crossing",
+      "join": false,
+      "simplify": 0.12
+    },
+    {
+      "slug": "moon_rock_01",
+      "scene": "moon",
+      "simplify": 0.25
+    },
+    {
+      "slug": "moon_rock_02",
+      "scene": "moon",
+      "simplify": 0.25
+    },
+    {
+      "slug": "moon_rock_03",
+      "scene": "moon",
+      "simplify": 0.25
+    },
+    {
+      "slug": "moon_rock_04",
+      "scene": "moon",
+      "simplify": 0.25
+    },
+    {
+      "slug": "moon_rock_05",
+      "scene": "moon",
+      "simplify": 0.25
+    },
+    {
+      "slug": "moon_rock_06",
+      "scene": "moon",
+      "simplify": 0.25
+    },
+    {
+      "slug": "moon_rock_07",
+      "scene": "moon",
+      "simplify": 0.25
+    },
+    {
+      "slug": "vintage_spacecraft_instrument",
+      "scene": "moon",
+      "simplify": 0.4
+    },
+    {
+      "slug": "vintage_radio_transceiver",
+      "scene": "moon",
+      "simplify": 0.4
+    }
+  ],
+  "textures": [
+    {
+      "slug": "concrete_wall_004",
+      "scene": "booth"
+    },
+    {
+      "slug": "asphalt_02",
+      "scene": "alley"
+    },
+    {
+      "slug": "concrete_floor_worn_001",
+      "scene": "booth"
+    },
+    {
+      "slug": "velour_velvet",
+      "scene": "credits"
+    },
+    {
+      "slug": "dirty_carpet",
+      "scene": "credits"
+    },
+    {
+      "slug": "wood_floor_worn",
+      "scene": "studio"
+    },
+    {
+      "slug": "moon_dusted_02",
+      "scene": "moon"
+    },
+    {
+      "slug": "moon_footprints_01",
+      "scene": "moon"
+    }
+  ],
+  "hdris": [
+    {
+      "slug": "studio_small_09",
+      "scene": "booth"
+    },
+    {
+      "slug": "shanghai_bund",
+      "scene": "alley"
+    },
+    {
+      "slug": "rooftop_night",
+      "scene": "studio"
+    },
+    {
+      "slug": "kloppenheim_02_puresky",
+      "scene": "crossing"
+    }
+  ]
+}

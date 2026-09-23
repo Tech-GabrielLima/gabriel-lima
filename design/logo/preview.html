@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<title>GL monogram options</title>
+<style>
+  @font-face { font-family: 'Mono'; src: url('../../public/fonts/JetBrainsMono.ttf'); }
+  body { margin: 0; background: #07080c; color: #efe6d8; font-family: 'Mono', monospace; }
+  .row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; }
+  figure { margin: 0; padding: 36px 24px 28px; text-align: center; border-right: 1px solid #16171c; }
+  figure:last-child { border: 0; }
+  .neon { width: 240px; height: 240px; background: radial-gradient(circle at 50% 55%, #1a1310 0%, #07080c 70%); border-radius: 12px; }
+  .ink { width: 64px; height: 64px; margin: 18px 10px 0; }
+  .fav { width: 20px; height: 20px; margin: 18px 10px 0; }
+  h2 { font-size: 13px; letter-spacing: .25em; text-transform: uppercase; margin: 22px 0 6px; color: #ffb36b; font-weight: 500; }
+  p { font-size: 11px; line-height: 1.6; color: #8d867c; max-width: 300px; margin: 0 auto; }
+  .small { display: flex; justify-content: center; align-items: flex-end; }
+  .paper { background: #efe6d8; border-radius: 8px; padding: 6px; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="b1" />
+      <feGaussianBlur stdDeviation="7" result="b2" />
+      <feMerge><feMergeNode in="b2" /><feMergeNode in="b1" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <!-- A: Laço — the L rises and curls over into the G's bowl -->
+    <path id="A" d="M 94 82 L 78 82 L 78 36 C 78 25 68 21 58 25.5 A 26 26 0 1 0 64.9 64.7 L 64.9 50 L 51 50" />
+    <!-- B: Cursiva — lowercase script 'gl' in one hand-written stroke -->
+    <path id="B" d="M 49 45 C 43 54 27 51 28 39 C 29 27 46 27 49 34 L 49 66 C 49 84 29 83 30 72 C 31 62 50 60 61 51 C 74 40 80 15 70 13 C 60 11 59 36 62 50 C 64 61 69 61 77 56" />
+    <!-- C: Silício — a circuit trace: the L shares the G's top rail, ending in a via -->
+    <path id="C" d="M 94 84 L 80 84 L 80 22 L 34 22 L 20 36 L 20 64 L 34 78 L 66 78 L 66 52 L 52 52" />
+  </defs>
+</svg>
+
+<div class="row">
+  <figure>
+    <svg class="neon" viewBox="0 0 110 110"><g transform="translate(5 5)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <use href="#A" stroke="#ff9a4a" stroke-width="6" opacity=".25" />
+      <use href="#A" stroke="#ffd6a0" stroke-width="2.6" filter="url(#glow)" />
+    </g></svg>
+    <h2>A · Laço</h2>
+    <p>O L sobe e se dobra por cima, virando a barriga do G. Um tubo de neon dobrado de verdade: é o mais fiel à ideia de "um traço só".</p>
+    <div class="small">
+      <svg class="ink paper" viewBox="0 0 100 100"><use href="#A" fill="none" stroke="#07080c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+      <svg class="fav" viewBox="0 0 100 100"><rect width="100" height="100" rx="18" fill="#07080c"/><use href="#A" fill="none" stroke="#ffb36b" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+    </div>
+  </figure>
+
+  <figure>
+    <svg class="neon" viewBox="0 0 110 110"><g transform="translate(5 5)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <use href="#B" stroke="#ff4f7a" stroke-width="6" opacity=".25" />
+      <use href="#B" stroke="#ffc2d2" stroke-width="2.6" filter="url(#glow)" />
+    </g></svg>
+    <h2>B · Cursiva</h2>
+    <p>"gl" minúsculo escrito à mão, como letreiro de bar antigo. Mais humano e caloroso: combina com a assinatura "eu imagino".</p>
+    <div class="small">
+      <svg class="ink paper" viewBox="0 0 100 100"><use href="#B" fill="none" stroke="#07080c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+      <svg class="fav" viewBox="0 0 100 100"><rect width="100" height="100" rx="18" fill="#07080c"/><use href="#B" fill="none" stroke="#ff7a9a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+    </div>
+  </figure>
+
+  <figure>
+    <svg class="neon" viewBox="0 0 110 110"><g transform="translate(5 5)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <use href="#C" stroke="#3ef0e6" stroke-width="6" opacity=".22" />
+      <use href="#C" stroke="#b8fffa" stroke-width="2.6" filter="url(#glow)" />
+      <circle cx="52" cy="52" r="4" fill="#07080c" stroke="#b8fffa" stroke-width="2.4" />
+    </g></svg>
+    <h2>C · Silício</h2>
+    <p>Uma trilha de circuito com cantos a 45° que termina numa <i>via</i>. É o "do pixel ao silício" literal, e o mais técnico dos três.</p>
+    <div class="small">
+      <svg class="ink paper" viewBox="0 0 100 100"><use href="#C" fill="none" stroke="#07080c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" /><circle cx="52" cy="52" r="5" fill="#efe6d8" stroke="#07080c" stroke-width="5"/></svg>
+      <svg class="fav" viewBox="0 0 100 100"><rect width="100" height="100" rx="18" fill="#07080c"/><use href="#C" fill="none" stroke="#3ef0e6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+    </div>
+  </figure>
+</div>
+</body>
+</html>
