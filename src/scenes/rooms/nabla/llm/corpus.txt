@@ -1,0 +1,251 @@
+O projetor liga sozinho toda noite. Ninguém sabe quem aperta o botão. A lâmpada esquenta devagar, a poeira acorda no feixe, e a primeira imagem aparece na tela antes que alguém sente na poltrona.
+
+The projector turns itself on every night. Nobody knows who presses the switch. The lamp warms up slowly, the dust wakes up in the beam, and the first picture reaches the screen before anyone sits down.
+
+O cinema é velho e cheira a pipoca fria. As poltronas são de veludo vermelho, gastas nos braços, e cada uma lembra de alguém que sentou ali numa sessão que já acabou.
+
+The cinema is old and smells of cold popcorn. The seats are red velvet, worn on the arms, and each one remembers someone who sat there at a show that has already ended.
+
+Na cabine de projeção, a película corre pelos roletes a vinte e quatro quadros por segundo. Cada quadro é uma fotografia parada. O movimento é uma mentira que o olho aceita.
+
+In the projection booth, the film runs through the rollers at twenty-four frames per second. Every frame is a still photograph. Motion is a lie the eye agrees to.
+
+Faltam dois segundos no filme. Quarenta e oito quadros foram cortados, e quando a película passa pela emenda a tela pisca preta por um instante. Quem presta atenção vê a marca da cola.
+
+Two seconds are missing from the film. Forty-eight frames were cut out, and when the reel runs through the splice the screen blinks black for an instant. Whoever pays attention sees the mark of the glue.
+
+O lanterninha anda pelo corredor com a lanterna apontada para o chão. Ele conhece cada degrau, cada poltrona quebrada, cada pessoa que chega atrasada. Ele fala pouco, mas quando fala tem um número.
+
+The usher walks down the aisle with his torch pointed at the floor. He knows every step, every broken seat, every person who arrives late. He says little, but when he speaks he has a number.
+
+A cortina é pesada e vermelha. Ela desce quando a cena muda e sobe quando a próxima está pronta. Atrás dela, o cenário se monta em silêncio, como se ninguém estivesse trabalhando.
+
+The curtain is heavy and red. It comes down when the scene changes and rises when the next one is ready. Behind it the set builds itself in silence, as if nobody were working.
+
+O ingresso é um cartão perfurado. Cada descoberta abre um furo. Com os quarenta e oito furos, o cartão vira uma chave, e a porta da cabine zero finalmente abre.
+
+The ticket is a punched card. Every discovery punches a hole. With all forty-eight holes the card becomes a key, and the door of booth zero finally opens.
+
+A luz é a regra do filme inteiro: nada existe até a luz tocar. O cursor é o feixe do projetor, a lanterna, o lampião, e o que fica no escuro espera ser encontrado.
+
+Light is the rule of the whole film: nothing exists until the light touches it. The cursor is the projector's beam, the torch, the lantern, and whatever stays in the dark waits to be found.
+
+No beco atrás do cinema chove sempre. As portas de aço são pichadas com nomes de projetos, e por baixo de cada uma vaza uma luz de cor diferente. Algumas portas escondem salas maiores por dentro do que por fora.
+
+In the alley behind the cinema it always rains. The steel shutters are sprayed with the names of projects, and under each one a different coloured light leaks out. Some doors hide rooms that are bigger inside than out.
+
+A chuva escreve no vidro da janela. As gotas escorrem, se juntam e desenham letras que ninguém pediu. Quem espera o bastante consegue ler uma palavra.
+
+The rain writes on the window glass. The drops run down, join and draw letters nobody asked for. Whoever waits long enough can read a word.
+
+O bueiro no meio do beco solta vapor. Dizem que ele desce até a sala de máquinas, onde os racks piscam e os ventiladores nunca param. É um atalho, e atalhos são segredos.
+
+The manhole in the middle of the alley breathes steam. They say it goes down to the machine room, where the racks blink and the fans never stop. It is a shortcut, and shortcuts are secrets.
+
+A lua sobre o cinema é a lua de verdade de Recife, calculada para esta noite. Quando está cheia, a sessão fica mais longa e o projetor faz um barulho diferente.
+
+The moon over the cinema is the real moon over Recife, computed for tonight. When it is full the show runs longer and the projector makes a different sound.
+
+O farol na travessia pisca devagar. Cinco faróis conversam no mar, e um deles é o líder. Quando o líder cai, os outros esperam um pouco, votam, e um novo farol começa a varrer a água.
+
+The lighthouse on the crossing blinks slowly. Five lighthouses talk across the sea, and one of them is the leader. When the leader falls, the others wait a little, vote, and a new lighthouse starts to sweep the water.
+
+A bilheteria tem um vidro com um furo redondo. Atrás dele, o caixa responde perguntas com a voz de um banco de dados. Se você pedir os segredos, ele diz que você não tem permissão.
+
+The box office has a glass window with a round hole. Behind it the cashier answers questions in the voice of a database. If you ask for the secrets, it says you do not have permission.
+
+O filme é sobre um engenheiro que desce as camadas. Começa na interface, onde a ideia vira tela, passa pelo backend, pelos dados, pelos sistemas distribuídos, e termina no silício, onde a luz vira elétron.
+
+The film is about an engineer who goes down the layers. It starts at the interface, where the idea becomes a screen, goes through the back end, the data, the distributed systems, and ends at the silicon, where light becomes an electron.
+
+Do pixel ao silício. Essa é a frase na porta, e é também o caminho da câmera. Cada cena fica um pouco mais funda que a anterior.
+
+From pixel to silicon. That is the line on the door, and it is also the path of the camera. Every scene sits a little deeper than the one before.
+
+O projecionista não aparece no filme. Ele está na janela da cabine, uma silhueta contra a luz. Talvez seja você. Talvez seja quem veio antes de você.
+
+The projectionist never appears in the film. He stands at the booth's window, a silhouette against the light. Maybe it is you. Maybe it is whoever came before you.
+
+Ninguém liga o projetor. Todo mundo liga. O operador de cada sessão é o visitante anterior, e quando você sair, a próxima sessão vai começar com o seu nome no registro.
+
+Nobody turns on the projector. Everybody does. The operator of each show is the visitor before, and when you leave, the next show will start with your name in the log.
+
+No registro do projetor está escrito: sessão iniciada, operador desconhecido. A linha se repete toda noite, com a mesma hora e o mesmo silêncio.
+
+The projector's log says: session started, operator unknown. The line repeats every night, at the same hour and with the same silence.
+
+O cinema é um computador. O letreiro é um arquivo, a porta é um arquivo, a luz é um arquivo. O lanterninha é um processo. Se você matar o processo, ele volta com outro número.
+
+The cinema is a computer. The marquee is a file, the door is a file, the light is a file. The usher is a process. If you kill the process, he comes back with another number.
+
+A película é feita de nitrato e memória. Ela arranha, ela queima, ela gruda. Um projetor bom é aquele que perdoa a película velha e segue rodando.
+
+Film is made of nitrate and memory. It scratches, it burns, it sticks. A good projector is one that forgives old film and keeps on running.
+
+Quando a película queima, a imagem derrete do centro para as bordas, com uma borda laranja e quente. Por baixo da imagem aparece outra coisa: o desenho de arame, o código, a verdade do quadro.
+
+When the film burns, the picture melts from the centre to the edges, with a hot orange rim. Under the picture something else appears: the wireframe, the code, the truth of the frame.
+
+O raio-x do cinema descasca o quadro em camadas: o pixel, a geometria, o shader, a rede, o servidor e o silício. Segure a tecla e veja o que existe por baixo da imagem.
+
+The cinema's x-ray peels the frame into layers: the pixel, the geometry, the shader, the network, the server and the silicon. Hold the key and see what lives under the picture.
+
+Na sala da caixa-preta, um programa morreu e deixou a gravação dos últimos instantes. O traceback diz onde. A caixa-preta diz por quê.
+
+In the black box room, a program died and left the recording of its last moments. The traceback says where. The black box says why.
+
+Na catedral, os vitrais são os estágios de um compilador. A luz atravessa o lexer, o parser, a árvore, os tipos, e sai do outro lado como um programa que roda em ondas.
+
+In the cathedral, the stained windows are the stages of a compiler. The light goes through the lexer, the parser, the tree, the types, and comes out the other side as a program that runs in waves.
+
+No cofre, as moedas se movem de uma pilha para outra, e a soma de tudo é sempre zero. O dinheiro não nasce e não some. Ele só muda de lugar, e cada mudança fica escrita na parede.
+
+In the vault, the coins move from one stack to another, and the sum of everything is always zero. Money is not born and does not vanish. It only changes place, and every change is written on the wall.
+
+No pregão, a avenida molhada é o spread. As compras ficam de um lado, as vendas do outro, e cada negócio é um raio que atravessa a rua.
+
+On the trading floor, the wet avenue is the spread. The bids stand on one side, the asks on the other, and every trade is a bolt of light across the street.
+
+Dentro do chip, oitenta multiprocessadores esperam os dados chegarem da memória. A multiplicação de matrizes enche a tela ladrilho por ladrilho, e a velocidade depende de como os dados são lidos.
+
+Inside the chip, eighty multiprocessors wait for data to arrive from memory. The matrix multiplication fills the screen tile by tile, and the speed depends on how the data is read.
+
+Na sala da rede, um dígito desenhado à mão atravessa quatro camadas de neurônios. A resposta acende no fim, e se estiver errada, o gradiente volta em rosa pelo mesmo caminho.
+
+In the network room, a digit drawn by hand crosses four layers of neurons. The answer lights up at the end, and if it is wrong, the gradient goes back in pink along the same path.
+
+Esta sala tem um modelo de linguagem minúsculo. Ele aprendeu a escrever lendo algumas páginas sobre este cinema, e agora escreve sobre ele, uma letra de cada vez.
+
+This room has a tiny language model. It learned to write by reading a few pages about this cinema, and now it writes about it, one letter at a time.
+
+Em obras, a próxima sessão está sendo filmada. A grua levanta uma laje, a câmera corre no trilho, e alguém grita ação. O prédio sobe um andar por take.
+
+Under construction, the next session is being filmed. The crane lifts a slab, the camera runs on its track, and someone shouts action. The building rises one floor per take.
+
+A claquete bate e o take começa. Se alguém bater a claquete no meio do take, tudo dá errado: a laje balança, o trilho acaba, o diretor grita corta.
+
+The clapperboard snaps and the take begins. If someone snaps it in the middle of a take, everything goes wrong: the slab swings, the track runs out, the director shouts cut.
+
+A tela é branca e enorme. De perto ela tem furinhos, para o som passar. De longe ela é uma janela para qualquer lugar que o projetor quiser.
+
+The screen is white and huge. Up close it has tiny holes, for the sound to come through. From far away it is a window onto anywhere the projector wants.
+
+O som chega um pouco depois da imagem, porque a luz é mais rápida que o ar. Nas poltronas do fundo, as pessoas riem meio segundo depois das da frente.
+
+Sound arrives a little after the picture, because light is faster than air. In the back rows, people laugh half a second after the ones in front.
+
+A pipoca estoura no saguão. O cheiro atravessa a porta, sobe a escada e chega na cabine, onde o projecionista come um punhado sem tirar os olhos da janela.
+
+The popcorn pops in the lobby. The smell goes through the door, up the stairs and into the booth, where the projectionist eats a handful without taking his eyes off the window.
+
+No saguão tem um fliperama antigo, um órgão de cinema e uma gaveta cheia de canhotos de ingressos. Cada canhoto tem um número, e o primeiro número é um segredo.
+
+In the lobby there is an old arcade machine, a cinema organ and a drawer full of ticket stubs. Every stub has a number, and the first number is a secret.
+
+A sala dois está fechada com uma placa de em breve. Atrás da porta dá para ouvir um filme passando, feito de pedaços de todas as pessoas que já terminaram a sessão.
+
+Hall two is closed with a coming soon sign. Behind the door you can hear a film playing, made of pieces of everyone who has ever finished the show.
+
+O letreiro na fachada tem uma lâmpada que pisca fora do ritmo. Ela não está quebrada. Ela está falando em código morse, e repete a mesma palavra a noite inteira.
+
+The marquee on the front has a bulb that blinks out of rhythm. It is not broken. It is speaking in morse code, and it repeats the same word all night long.
+
+Os créditos sobem no fim. Quem lê até o último nome descobre que os créditos também podem descer, se você rebobinar com cuidado.
+
+The credits roll at the end. Whoever reads to the last name finds out that the credits can also roll back, if you rewind carefully.
+
+Cada visitante deixa um rastro. Uma lanterna varrendo o beco, um canhoto na gaveta, um quadro no filme coletivo. O cinema nunca está vazio, mesmo quando você está sozinho.
+
+Every visitor leaves a trace. A torch sweeping the alley, a stub in the drawer, a frame in the collective film. The cinema is never empty, even when you are alone.
+
+O progresso não é um número, é um registro de eventos. O servidor lê o registro de novo, do começo, e decide o que vale. Quem tenta falsificar o ingresso recebe uma resposta curta: não.
+
+Progress is not a number, it is a log of events. The server reads the log again, from the start, and decides what counts. Whoever tries to forge the ticket gets a short answer: no.
+
+O diretor deste filme tem vinte e dois anos e escreve software de ponta a ponta: a interface que você toca, a API que responde, o banco que não perde um centavo.
+
+The director of this film is twenty-two and writes software end to end: the interface you touch, the API that answers, the database that never loses a cent.
+
+E quando a ferramenta não existe, ele escreve a ferramenta. Um compilador, kernels de GPU, um algoritmo de consenso, uma caixa-preta para programas que morrem.
+
+And when the tool does not exist, he writes the tool. A compiler, GPU kernels, a consensus algorithm, a black box for programs that die.
+
+Eu não apenas construo. Eu imagino.
+
+I don't just build. I imagine.
+
+A sessão noturna começa às onze. As luzes se apagam uma por uma, do fundo para a frente, e a última a apagar é a da saída de emergência, que na verdade nunca apaga.
+
+The night show starts at eleven. The lights go out one by one, from the back to the front, and the last to go is the emergency exit sign, which in truth never goes out.
+
+O projetor faz um barulho de relógio. Tique, tique, tique, vinte e quatro vezes por segundo. Quem trabalha na cabine aprende a dormir com esse barulho e acorda quando ele para.
+
+The projector makes a clock's noise. Tick, tick, tick, twenty-four times a second. Whoever works in the booth learns to sleep with that noise and wakes up when it stops.
+
+A lâmpada do projetor é de xenônio e brilha mais que o sol visto da terra. Por isso a cabine é pequena, escura e quente, e por isso o projecionista usa óculos escuros à noite.
+
+The projector's lamp is xenon and shines brighter than the sun seen from the earth. That is why the booth is small, dark and hot, and why the projectionist wears sunglasses at night.
+
+Quando a bobina acaba, o projetor troca para a outra sem que ninguém perceba. No canto da tela aparece um círculo pequeno, a marca de troca. Quem viu, viu.
+
+When a reel runs out, the projector switches to the next without anyone noticing. In the corner of the screen a small circle appears, the changeover cue. Whoever saw it, saw it.
+
+A aranha mora no canto da cabine. Ela tece a teia entre o projetor e a parede, e a luz do feixe atravessa a teia e projeta uma sombra enorme na tela.
+
+The spider lives in the corner of the booth. She spins her web between the projector and the wall, and the beam goes through the web and throws a huge shadow on the screen.
+
+Um rato corre pelo corredor durante a cena mais silenciosa. Ninguém grita. O lanterninha só aponta a lanterna e diz que ele também comprou ingresso.
+
+A mouse runs down the aisle during the quietest scene. Nobody screams. The usher only points his torch and says that he bought a ticket too.
+
+O computador do projecionista é antigo e tem uma tela verde. Ele liga com um zumbido, mostra um cursor piscando e espera um comando. O primeiro comando de todo mundo é ajuda.
+
+The projectionist's computer is old and has a green screen. It turns on with a hum, shows a blinking cursor and waits for a command. Everyone's first command is help.
+
+Sair do editor de texto é o primeiro desafio de quem senta na cabine. Muita gente fica presa ali a noite inteira, digitando palavras que não fazem nada.
+
+Leaving the text editor is the first challenge for whoever sits in the booth. Many people stay stuck there all night, typing words that do nothing.
+
+O filme que passa é a sua carreira. As cenas são os lugares onde você trabalhou, os projetos que você construiu, as noites em que ficou acordado até o programa funcionar.
+
+The film that plays is your career. The scenes are the places you worked, the projects you built, the nights you stayed up until the program worked.
+
+A cabine zero é a última porta. Ela fica na fachada, ao lado da bilheteria, desde o primeiro segundo. A placa diz somente pessoal autorizado, e a leitora mostra zero de quarenta e oito.
+
+Booth zero is the last door. It stands on the front, beside the box office, from the very first second. The sign says staff only, and the reader shows zero of forty-eight.
+
+Quando o cartão tem todos os furos, ele entra na leitora e é lido bit por bit. A porta abre, e lá dentro o filme era sobre você o tempo todo.
+
+When the card has every hole, it goes into the reader and is read bit by bit. The door opens, and inside the film was about you all along.
+
+O estúdio do diretor tem uma mesa, uma luminária e uma janela para a chuva. Na parede ficam os cartazes dos filmes que ele ainda não fez.
+
+The director's studio has a desk, a lamp and a window onto the rain. On the wall hang the posters of the films he has not made yet.
+
+O píer entra no mar com lanternas acesas, uma para cada ano. As primeiras são pequenas, muitos barcos pequenos. Depois o píer fica mais largo, e a última lanterna está apagada, esperando.
+
+The pier goes out into the sea with lit lanterns, one for each year. The first ones are small, many little boats. Then the pier gets wider, and the last lantern is dark, waiting.
+
+A última lanterna só acende quando alguém clica nela. É o próximo capítulo. Talvez seja você.
+
+The last lantern only lights when someone clicks it. It is the next chapter. Maybe it is you.
+
+O cinema foi construído num prédio que já foi outra coisa. Tem janelas que não abrem, escadas que não levam a lugar nenhum, e uma porta pintada na parede, igual às outras, que ninguém nunca abriu.
+
+The cinema was built in a building that used to be something else. It has windows that do not open, stairs that lead nowhere, and a door painted on the wall, just like the others, that nobody has ever opened.
+
+A película passa pelo portão, para, recebe a luz, e anda de novo. Parar e andar, parar e andar. O cinema inteiro é feito de pequenas paradas que ninguém vê.
+
+The film passes through the gate, stops, takes the light, and moves again. Stop and go, stop and go. The whole cinema is made of small stops that nobody sees.
+
+Quem chega atrasado entra no escuro. O lanterninha acende a lanterna, mostra o caminho e desliga antes que a luz atrapalhe a tela. É uma arte pequena e antiga.
+
+Whoever arrives late walks into the dark. The usher turns on his torch, shows the way and switches it off before the light spoils the screen. It is a small and ancient craft.
+
+No fim da sessão as luzes acendem devagar. A plateia pisca, se levanta, procura o casaco. O projetor esfria, a poeira volta a dormir, e a tela fica branca esperando a próxima noite.
+
+At the end of the show the lights come up slowly. The audience blinks, stands, looks for their coats. The projector cools, the dust goes back to sleep, and the screen stays white waiting for the next night.
+
+Amanhã o projetor vai ligar sozinho de novo. A lâmpada vai esquentar, a película vai correr, e alguém, em algum lugar, vai abrir a porta do cinema pela primeira vez.
+
+Tomorrow the projector will turn itself on again. The lamp will warm up, the film will run, and someone, somewhere, will open the cinema's door for the first time.

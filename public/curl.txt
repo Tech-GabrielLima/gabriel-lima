@@ -1,0 +1,36 @@
+
+[33m  ▄▄▄  ▄     Gabriel Lima[0m
+[33m █     █     [0mFull stack, from pixel to silicon.
+[33m █  ▀█ █     [0m[90mFull stack, do pixel ao silício.[0m
+[33m  ▀▀▀  ▀▀▀▀[0m
+
+  Data, back-end, front-end and automation, for 4 years: 8+ companies as a
+  freelancer, then ~3 years at Grupo Bel Cosméticos, where I built and alone
+  maintain a 900-class Java system. In my own time I build the things
+  underneath: a compiler, GPU kernels, a consensus algorithm.
+
+[33m  Projects[0m
+  [36mflight  [0mWhen a program crashes, it usually takes the reason with it. fli…
+  [90m          https://github.com/Tech-GabrielLima/flight[0m
+  [36mhale    [0mI didn’t like how software talks to other software. So I wrote a…
+  [90m          https://github.com/Tech-GabrielLima/tired[0m
+  [36mraft    [0mHow do five computers agree on the truth when any of them can di…
+  [90m          https://github.com/Tech-GabrielLima/raft-kv-store[0m
+  [36mmatch   [0m3.6 million orders per second. On a single thread. Without a sin…
+  [90m          https://github.com/Tech-GabrielLima/lowlatency-matching-engine[0m
+  [36mledger  [0m1,000 transfers at the same instant. Not one cent out of place.
+  [90m          https://github.com/Tech-GabrielLima/event-sourced-ledger[0m
+  [36mnabla   [0mTo really understand AI, I rebuilt the parts nobody looks at.
+  [90m          https://github.com/Tech-GabrielLima/nabla-autograd[0m
+  [36mcuda    [0mWhy is a graphics card so fast? I wrote the answer by hand.
+  [90m          https://github.com/Tech-GabrielLima/cuda-kernels-from-scratch[0m
+  [36mobras   [0mThe next session is being filmed.
+  [90m          https://github.com/Tech-GabrielLima[0m
+
+[33m  Contact[0m  port.gabriel.lima@gmail.com · WhatsApp +55 81 99619-9997 · https://github.com/Tech-GabrielLima
+
+[90m  You came in through the terminal, so here's the other door: the site has a computer
+  of its own, and its shell answers the same command. Open the site, sit at the
+  projectionist's computer (the booth, chapter 01) and run: curl gabriel-lima-eight.vercel.app[0m
+[90m  Você entrou pelo terminal; o site tem um computador próprio, e o shell dele responde ao
+  mesmo comando. Sente no computador da cabine e rode curl no domínio.[0m

@@ -1,0 +1,13 @@
+{
+  "name": "sessao-noturna-cinema",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --port 8788",
+    "test": "cargo test --lib",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.143.0"
+  }
+}

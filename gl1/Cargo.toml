@@ -1,0 +1,17 @@
+[package]
+name = "gl1"
+version = "0.1.0"
+edition = "2021"
+description = "GL-1: the cinema's computer. An 8-bit CPU, its machine, its assembler and its filesystem."
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "gl1"
+path = "src/bin/gl1.rs"
+
+[profile.release]
+opt-level = 3
+lto = true
+panic = "abort"

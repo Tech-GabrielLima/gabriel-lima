@@ -1,0 +1,69 @@
+{
+  "_": "The closed vocabulary for the notes left in Cabin 0 (ROTEIRO §0.4.8). The server stores only indices and checks them against this file; the site renders them in either language. Append only: an index, once used, must keep meaning the same word.",
+  "templates": [
+    { "slots": ["verb", "place"], "pt": "tente {0} {1}", "en": "try {0} {1}" },
+    { "slots": ["thing"], "pt": "{0} adiante", "en": "{0} ahead" },
+    { "slots": ["thing"], "pt": "cuidado com {0}", "en": "beware of {0}" },
+    { "slots": ["place"], "pt": "não desista {0}", "en": "don't give up {0}" },
+    { "slots": ["feeling", "place"], "pt": "{0} {1}", "en": "{0} {1}" },
+    { "slots": ["thing"], "pt": "ouça {0}", "en": "listen to {0}" },
+    { "slots": ["place"], "pt": "a resposta está {0}", "en": "the answer is {0}" },
+    { "slots": ["thing"], "pt": "{0} sabe de alguma coisa", "en": "{0} knows something" },
+    { "slots": ["thing", "verb"], "pt": "{0} gosta de {1}", "en": "{0} likes {1}" },
+    { "slots": ["feeling"], "pt": "você vai precisar de {0}", "en": "you will need {0}" }
+  ],
+  "words": {
+    "verb": [
+      { "pt": "esperar", "en": "waiting" },
+      { "pt": "ler", "en": "reading" },
+      { "pt": "ouvir", "en": "listening" },
+      { "pt": "segurar a luz", "en": "holding the light" },
+      { "pt": "digitar", "en": "typing" },
+      { "pt": "voltar", "en": "going back" },
+      { "pt": "olhar de perto", "en": "looking closely" },
+      { "pt": "clicar", "en": "clicking" },
+      { "pt": "rebobinar", "en": "rewinding" },
+      { "pt": "apagar a luz", "en": "turning the lights off" },
+      { "pt": "sair", "en": "leaving" },
+      { "pt": "não fazer nada", "en": "doing nothing" }
+    ],
+    "place": [
+      { "pt": "no saguão", "en": "in the lobby" },
+      { "pt": "na bilheteria", "en": "at the box office" },
+      { "pt": "no beco", "en": "in the alley" },
+      { "pt": "na cabine", "en": "in the booth" },
+      { "pt": "no terminal", "en": "in the terminal" },
+      { "pt": "na Lua", "en": "on the Moon" },
+      { "pt": "nos créditos", "en": "in the credits" },
+      { "pt": "na chuva", "en": "in the rain" },
+      { "pt": "no bueiro", "en": "down the manhole" },
+      { "pt": "na Sala de Máquinas", "en": "in the machine room" },
+      { "pt": "atrás da Sala 2", "en": "behind Hall 2" },
+      { "pt": "no escuro", "en": "in the dark" }
+    ],
+    "thing": [
+      { "pt": "a aranha", "en": "the spider" },
+      { "pt": "o pato", "en": "the duck" },
+      { "pt": "o lanterninha", "en": "the usher" },
+      { "pt": "o silêncio", "en": "the silence" },
+      { "pt": "a lâmpada", "en": "the bulb" },
+      { "pt": "o rato", "en": "the rat" },
+      { "pt": "o vim", "en": "vim" },
+      { "pt": "o farol", "en": "the lighthouse" },
+      { "pt": "o projetor", "en": "the projector" },
+      { "pt": "a chuva", "en": "the rain" },
+      { "pt": "o botão", "en": "the button" },
+      { "pt": "o root", "en": "root" }
+    ],
+    "feeling": [
+      { "pt": "paciência", "en": "patience" },
+      { "pt": "coragem", "en": "courage" },
+      { "pt": "curiosidade", "en": "curiosity" },
+      { "pt": "calma", "en": "calm" },
+      { "pt": "atenção", "en": "attention" },
+      { "pt": "silêncio", "en": "silence" },
+      { "pt": "teimosia", "en": "stubbornness" },
+      { "pt": "um café", "en": "a coffee" }
+    ]
+  }
+}

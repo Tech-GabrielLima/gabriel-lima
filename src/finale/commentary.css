@@ -1,0 +1,59 @@
+/* The Commentary Session (Commentary.tsx): the director's track over the film. */
+.commentary {
+  position: fixed;
+  left: 50%;
+  bottom: clamp(70px, 12vh, 120px);
+  z-index: 60;
+  display: grid;
+  gap: 6px;
+  justify-items: center;
+  width: min(760px, calc(100% - 32px));
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+.commentary-tag {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 0;
+  font: 10px var(--mono);
+  letter-spacing: 0.3em;
+  color: var(--amber);
+  pointer-events: auto;
+}
+.commentary-tag button {
+  font: 14px var(--mono);
+  color: var(--dim);
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+.commentary-line {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding: 10px 16px;
+  font: italic clamp(15px, 1.8vw, 19px) / 1.4 var(--serif);
+  color: #efe6d8;
+  text-align: center;
+  background: rgba(5, 5, 7, 0.72);
+  border-radius: 6px;
+  animation: commentary-in 0.5s ease both;
+}
+.commentary-line b {
+  font: normal 10px var(--mono);
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+@keyframes commentary-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .commentary-line {
+    animation: none;
+  }
+}

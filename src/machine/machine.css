@@ -1,0 +1,183 @@
+/* A Caldeira (src/machine/Boiler.tsx): a supervision tree as boilers and valves. */
+
+.bl-room {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  background: radial-gradient(ellipse at 50% 30%, #1d1712, #0b0908 75%);
+  border-radius: 10px;
+}
+.bl-tank {
+  fill: #3a2c20;
+  stroke: #8a6a4a;
+  stroke-width: 2;
+}
+.bl-rivet {
+  fill: #b8905e;
+}
+.bl-chimney {
+  fill: #2a211a;
+  stroke: #6a5038;
+}
+.bl-steam {
+  fill: rgba(239, 230, 216, 0.35);
+  animation: bl-steam 1.8s ease-out infinite;
+}
+@keyframes bl-steam {
+  from {
+    opacity: 0.8;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-16px);
+  }
+}
+.bl-burst {
+  fill: none;
+  stroke: #ffb36b;
+  stroke-width: 3;
+  animation: bl-burst 0.7s ease-out both;
+}
+@keyframes bl-burst {
+  from {
+    opacity: 1;
+    r: 8;
+  }
+  to {
+    opacity: 0;
+    r: 40;
+  }
+}
+.bl-pipe {
+  stroke: #6a5038;
+  stroke-width: 4;
+  fill: none;
+}
+.bl-pipe.cut {
+  stroke: #ff5a4f;
+  stroke-dasharray: 4 6;
+}
+.bl-name,
+.bl-strat,
+.bl-pid,
+.bl-dead {
+  font: 11px var(--mono);
+  text-anchor: middle;
+  fill: #e8dfcf;
+}
+.bl-strat,
+.bl-pid {
+  font-size: 9px;
+  fill: #8d867c;
+}
+.bl-dead {
+  font-size: 13px;
+  fill: #ff5a4f;
+}
+.bl-gauge {
+  fill: #7fd6a2;
+}
+.bl-gauge.warn {
+  fill: #ff5a4f;
+}
+.bl-lamp {
+  fill: #2a211a;
+  stroke: #6a5038;
+}
+.bl-lamp.lit {
+  fill: #ffb36b;
+}
+.bl-lamp.last {
+  stroke: #ff5a4f;
+}
+.bl-log {
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+  font: 11px / 1.5 var(--mono);
+  color: #8d867c;
+}
+.bl-log li:last-child {
+  color: #e8dfcf;
+}
+
+/* The Chaos Panel (src/machine/Chaos.tsx). */
+.ch-room {
+  width: 100%;
+  height: auto;
+  background: radial-gradient(ellipse at 50% 50%, #101820, #07080c 75%);
+  border-radius: 10px;
+}
+.ch-link {
+  stroke: rgba(62, 240, 230, 0.18);
+  stroke-width: 1.5;
+}
+.ch-link.cut {
+  stroke: rgba(255, 90, 79, 0.25);
+  stroke-dasharray: 3 5;
+}
+.ch-cut {
+  stroke: #ff5a4f;
+  stroke-width: 3;
+  stroke-dasharray: 10 8;
+}
+.ch-node {
+  cursor: pointer;
+}
+.ch-node circle {
+  fill: #0f1a22;
+  stroke: #3ef0e6;
+  stroke-width: 2;
+}
+.ch-node.leader circle {
+  fill: #3ef0e6;
+  filter: drop-shadow(0 0 10px rgba(62, 240, 230, 0.8));
+}
+.ch-node.leader .ch-id,
+.ch-node.leader .ch-meta {
+  fill: #06201e;
+}
+.ch-node.candidate circle {
+  stroke: #ffb36b;
+  stroke-dasharray: 4 4;
+}
+.ch-node.dead circle {
+  fill: #1a1010;
+  stroke: #5a2a26;
+}
+.ch-id {
+  font: 16px var(--mono);
+  text-anchor: middle;
+  fill: #e8dfcf;
+}
+.ch-meta {
+  font: 9px var(--mono);
+  text-anchor: middle;
+  fill: #8d867c;
+}
+.ch-ctl {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px 10px;
+  font: 11px var(--mono);
+  color: #b8ae9f;
+}
+.ch-ctl input {
+  grid-column: 1 / -1;
+  accent-color: #3ef0e6;
+}
+.ch-split {
+  justify-self: start;
+  padding: 8px 14px;
+  font: 12px var(--mono);
+  color: #e8dfcf;
+  background: rgba(255, 90, 79, 0.08);
+  border: 1px solid rgba(255, 90, 79, 0.5);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.ch-split.on {
+  background: #ff5a4f;
+  color: #1a0706;
+}

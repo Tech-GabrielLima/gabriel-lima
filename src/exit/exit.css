@@ -1,0 +1,323 @@
+/* ACT III · LUZES ACESAS. Act I's house (lobby.css) with the lights half up:
+   the same grain, lantern, marquee and thread, a little warmer and brighter,
+   and the projects in their showcases. */
+
+.lobby.act3 {
+  background: radial-gradient(ellipse 120% 60% at 50% -10%, #2a1d14 0, #15110f 45%, #0b0a0d 100%);
+  animation: exit-in 1.3s ease both;
+}
+/* Arriving through the exit door: the glare of the foyer, settling. */
+@keyframes exit-in {
+  from {
+    filter: brightness(3.2) saturate(0.4);
+  }
+}
+.lobby.act3.leaving {
+  animation: none;
+}
+/* The row of house lights along the ceiling. */
+.exit-houselights {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  height: 3px;
+  background: repeating-linear-gradient(90deg, transparent 0 34px, rgba(255, 214, 160, 0.9) 34px 40px);
+  box-shadow: 0 0 40px 10px rgba(255, 179, 107, 0.16);
+  pointer-events: none;
+}
+/* Lights half up: the lantern still leads, the dark is lighter. */
+.act3 .lobby-dark::before {
+  background: radial-gradient(
+    circle,
+    rgba(255, 190, 120, 0.11) 0,
+    rgba(255, 179, 107, 0.035) 140px,
+    rgba(3, 4, 7, 0) 220px,
+    rgba(3, 4, 7, 0.16) 480px,
+    rgba(3, 4, 7, 0.24) 700px
+  );
+  box-shadow: 0 0 0 4000px rgba(3, 4, 7, 0.24);
+}
+.act3 .hero {
+  gap: 22px;
+}
+.act3 .marquee-name {
+  font-style: italic;
+}
+.exit-aud {
+  color: #7dffa0;
+}
+.act3 .s3 {
+  color: rgba(125, 255, 160, 0.75);
+}
+
+/* ---------- things that light up as they scroll in ---------- */
+.reveal > * {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.9s ease, transform 0.9s var(--ease);
+}
+.reveal.in > * {
+  opacity: 1;
+  transform: none;
+}
+.reveal.in > :nth-child(2) {
+  transition-delay: 0.12s;
+}
+.reveal.in > :nth-child(3) {
+  transition-delay: 0.24s;
+}
+.reveal.in > :nth-child(4) {
+  transition-delay: 0.36s;
+}
+
+/* ---------- the exhibits ---------- */
+.exhibit {
+  position: relative;
+  display: grid;
+  gap: 34px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 110px clamp(16px, 5vw, 64px) 30px;
+}
+.ex-head {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: clamp(16px, 3vw, 40px);
+  align-items: start;
+}
+/* The showcase number, a hollow neon tube that flickers on. */
+.ex-num {
+  font: italic clamp(84px, 12vw, 168px) / 0.8 var(--serif);
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(255, 179, 107, 0.85);
+  text-shadow: 0 0 40px rgba(255, 150, 70, 0.3);
+  opacity: 0.08;
+}
+.reveal.in .ex-num {
+  animation: flicker-on 1.4s 0.2s both;
+}
+.lobby .ex-body {
+  max-width: 640px;
+  margin: 0;
+  font: clamp(17px, 1.5vw, 20px) / 1.5 var(--serif);
+  color: var(--body);
+}
+.lobby .ex-body a,
+.act3 .posters a,
+.act3 .exit-ways a {
+  color: var(--amber);
+}
+/* The showcase glass: a warm glow comes up behind the panel as it arrives. */
+.ex-case {
+  position: relative;
+}
+.ex-case::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  border-radius: 15px;
+  box-shadow: 0 0 0 1px rgba(255, 179, 107, 0.28), 0 30px 90px rgba(255, 140, 60, 0.12);
+  opacity: 0;
+  transition: opacity 1.4s ease 0.5s;
+}
+.reveal.in .ex-case::before {
+  opacity: 1;
+}
+
+/* ---------- posters in the foyer ---------- */
+.posters {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 110px clamp(16px, 5vw, 64px) 30px;
+}
+.posters ul {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  margin: 26px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.poster-tilt {
+  perspective: 900px;
+}
+.poster {
+  position: relative;
+  display: grid;
+  align-content: end;
+  gap: 10px;
+  min-height: 380px;
+  padding: 22px;
+  overflow: hidden;
+  border-top: 3px solid var(--c, var(--amber));
+  border-radius: 10px;
+  background:
+    linear-gradient(to top, #0d0b0c 40%, rgba(13, 11, 12, 0) 85%),
+    radial-gradient(circle at 50% 18%, color-mix(in srgb, var(--c, #ffb36b) 42%, transparent), transparent 62%),
+    #151216;
+  box-shadow: 0 26px 70px rgba(0, 0, 0, 0.55);
+  transform: rotateX(calc(var(--ty, 0) * -8deg)) rotateY(calc(var(--tx, 0) * 10deg));
+  will-change: transform;
+}
+.act3 .poster p {
+  position: relative;
+  margin: 0;
+}
+/* Spray-painted, like the shutters in the alley. */
+.act3 .poster .p-tag {
+  position: absolute;
+  top: 22px;
+  left: 18px;
+  font: clamp(30px, 3vw, 42px) var(--marker);
+  color: var(--c, var(--amber));
+  transform: rotate(-5deg);
+  text-shadow: 0 0 24px color-mix(in srgb, var(--c, #ffb36b) 60%, transparent);
+}
+.act3 .poster .p-title {
+  font: 28px / 1.05 var(--serif);
+  color: #fff4e6;
+}
+.act3 .poster .p-hook {
+  font: 16px / 1.45 var(--serif);
+  color: var(--body);
+}
+.act3 .poster .p-stack {
+  font: 10px var(--mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+.act3 .poster a {
+  position: relative;
+  font: 11px var(--mono);
+  letter-spacing: 0.1em;
+}
+
+/* ---------- credits ---------- */
+.exit-credits {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 130px 16px 40px;
+  text-align: center;
+}
+.lobby .exit-credits .ex-body {
+  text-align: center;
+}
+.exit-sign {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 18px;
+  overflow: visible;
+  fill: none;
+  stroke: var(--amber);
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  filter: drop-shadow(0 0 10px rgba(255, 179, 107, 0.5));
+}
+.exit-sign path {
+  stroke-dasharray: 1 1;
+  stroke-dashoffset: 1;
+  transition: stroke-dashoffset 2s var(--ease);
+}
+.exit-sign.drawn path {
+  stroke-dashoffset: 0;
+}
+.exit-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: 14px;
+  margin-top: 12px;
+}
+.act3 .exit-mail {
+  font: clamp(24px, 4vw, 44px) var(--serif);
+  color: #fff4e6;
+  text-decoration: none;
+  border-bottom: 1px solid var(--amber);
+  overflow-wrap: anywhere;
+}
+.exit-contact button,
+.to-lobby {
+  padding: 8px 14px;
+  font: 11px var(--mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--amber);
+  border: 1px solid rgba(255, 179, 107, 0.4);
+  border-radius: 999px;
+}
+.exit-ways {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+  font: 12px var(--mono);
+  letter-spacing: 0.08em;
+}
+.lobby .exit-fin {
+  margin: 26px 0 0;
+  font: italic 22px var(--serif);
+  color: var(--dim);
+}
+.to-lobby {
+  position: relative;
+  z-index: 1;
+  margin-top: 30px;
+  color: var(--dim);
+  border-color: rgba(239, 230, 216, 0.2);
+}
+.to-lobby:hover {
+  color: var(--paper);
+}
+
+@media (max-width: 900px) {
+  .posters ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 640px) {
+  .ex-head {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+  .ex-num {
+    font-size: 72px;
+  }
+}
+@media (max-width: 520px) {
+  .posters ul {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .poster {
+    min-height: 300px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lobby.act3 {
+    animation: none;
+  }
+  .reveal > * {
+    transition: none;
+  }
+}
+.act3 .hero .live-badge {
+  justify-self: center;
+}
+/* Act III's door also carries the way back to the lobby. */
+.act3 .door-hall {
+  --door-room: 400px;
+  padding-bottom: 36px;
+}
+.act3 .door-floor {
+  height: 80px;
+}

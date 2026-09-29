@@ -1,0 +1,19 @@
+# Sessão Noturna · the cinema's memory (ROTEIRO §0.4.3). Free plan, no card:
+# Workers + a SQLite-backed Durable Object. Secret: `npx wrangler secret put TICKET_KEY`.
+name = "sessao-noturna-cinema"
+main = "build/index.js"
+compatibility_date = "2026-09-01"
+
+[build]
+command = "worker-build --release"
+
+[vars]
+ALLOWED_ORIGINS = "https://gabriel-lima-eight.vercel.app,https://port-gabriel-lima-sable.vercel.app,http://localhost:5173,http://localhost:4173"
+
+[[durable_objects.bindings]]
+name = "CINEMA"
+class_name = "Cinema"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Cinema"]

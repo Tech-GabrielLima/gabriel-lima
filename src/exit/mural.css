@@ -1,0 +1,106 @@
+/* The mural of completions (src/exit/Mural.tsx). */
+.mural {
+  display: grid;
+  gap: 22px;
+}
+.mural-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  margin: 0;
+}
+.mural-stats dt {
+  font: 10px var(--mono);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+.mural-stats dd {
+  margin: 4px 0 0;
+  font: 34px var(--serif);
+  color: var(--paper);
+}
+.mural-wall {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 22px;
+  min-height: 150px;
+  background:
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.18) 0 1px, transparent 1px 40px),
+    linear-gradient(#2a1d14, #1a120c);
+  border-radius: 8px;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.6);
+}
+.mural-stub {
+  display: grid;
+  gap: 2px;
+  justify-items: start;
+  padding: 10px 14px;
+  font: 11px var(--mono);
+  color: #2a1d12;
+  background: linear-gradient(135deg, #efe0c2, #dcc59c);
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.45);
+  transform: rotate(var(--r, 0deg));
+  cursor: default;
+}
+.mural-stub b {
+  font: 24px var(--serif);
+}
+.mural-stub small {
+  font-size: 8px;
+  letter-spacing: 0.24em;
+  color: #9a3a22;
+}
+.mural-stub.first {
+  cursor: pointer;
+  outline: 2px solid var(--amber);
+}
+.mural-stub.mine {
+  box-shadow: 0 0 0 2px #7fd6a2, 0 6px 16px rgba(0, 0, 0, 0.45);
+}
+.mural-stub.empty {
+  opacity: 0.45;
+  background: none;
+  border: 1px dashed #8a6a50;
+  color: #d9cfc0;
+  box-shadow: none;
+}
+
+/* The Lightning Session: the fastest completions (the speedrun). */
+.mural-speed {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.mural .mural-speed-title {
+  margin: 0;
+  font: 12px var(--mono);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #ffd21f;
+}
+.mural-speed-title small {
+  margin-left: 8px;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  color: var(--dim);
+}
+.mural-speed ol {
+  display: grid;
+  gap: 2px;
+  margin: 0;
+  padding-left: 22px;
+  font: 12px var(--mono);
+  color: #d9cfc0;
+}
+.mural-speed li span {
+  display: inline-block;
+  min-width: 150px;
+}
+.mural-speed li.mine {
+  color: var(--amber);
+}

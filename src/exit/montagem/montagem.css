@@ -1,0 +1,120 @@
+/* A Sala de Montagem (src/exit/montagem/). */
+.montagem {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 22px;
+  align-items: start;
+}
+@media (max-width: 860px) {
+  .montagem {
+    grid-template-columns: 1fr;
+  }
+}
+.montagem-stage {
+  display: grid;
+  place-items: center;
+  min-height: 220px;
+  padding: 20px;
+  background: radial-gradient(ellipse at 50% 40%, #1d1510, #0b0908 75%);
+  border-radius: 10px;
+}
+.slate {
+  position: relative;
+  display: grid;
+  gap: 4px;
+  padding: 34px 26px 20px;
+  min-width: 240px;
+  color: #efe6d8;
+  background: #141210;
+  border: 3px solid #ffb36b;
+  border-radius: 6px;
+}
+.slate-stripes {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 18px;
+  background: repeating-linear-gradient(135deg, #efe6d8 0 12px, #141210 12px 24px);
+}
+.slate p {
+  margin: 0;
+}
+.slate-kicker {
+  font: 10px var(--mono);
+  letter-spacing: 0.24em;
+  color: #8d867c;
+}
+.slate-title {
+  font: 34px / 1.1 var(--serif);
+}
+.slate-by {
+  font: italic 15px var(--serif);
+  color: #b8ae9f;
+}
+.montagem-editor {
+  display: grid;
+  gap: 10px;
+}
+.montagem-file {
+  margin: 0;
+  font: 11px var(--mono);
+  color: var(--dim);
+}
+.montagem-editor textarea {
+  min-height: 300px;
+  padding: 12px;
+  font: 12px / 1.5 var(--mono);
+  color: #e8dfcf;
+  background: #07080b;
+  border: 1px solid #2a2622;
+  border-radius: 6px;
+  resize: vertical;
+  tab-size: 2;
+}
+.montagem-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.montagem-row button {
+  padding: 8px 14px;
+  font: 12px var(--mono);
+  color: var(--paper);
+  background: rgba(255, 179, 107, 0.07);
+  border: 1px solid rgba(255, 179, 107, 0.35);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.montagem-row button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.montagem-ok {
+  margin: 0;
+  font: 12px var(--mono);
+  color: #7fd6a2;
+}
+.montagem-err,
+.montagem-diff {
+  margin: 0;
+  padding: 10px 12px;
+  max-height: 260px;
+  overflow: auto;
+  font: 11px / 1.5 var(--mono);
+  white-space: pre;
+  background: #07080b;
+  border-radius: 6px;
+}
+.montagem-err {
+  color: #ff8a7a;
+}
+.montagem-diff {
+  color: #d9cfc0;
+}
+.montagem-note {
+  margin: 0;
+  font: 12px var(--mono);
+  color: var(--dim);
+}
+.montagem-note a {
+  color: var(--amber);
+}
